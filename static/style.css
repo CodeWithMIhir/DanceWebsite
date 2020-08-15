@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+#navbar{
+    background-color:#ff6868;
+    height: 54px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: 'ABeeZee', sans-serif;
+    padding-left: 8px;
+
+}
+ul li{
+    padding: 15px 16px;
+ ;
+}
+ul li a{
+    text-decoration: none;
+     color: white;
+}
+ul li a:hover{
+    color: black;
+    font-size: 25px;
+}
+#logo{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    padding-right: 24px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#introsection{
+    height: 503px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Yeon Sung', cursive;
+    background:center / cover url('https://images.unsplash.com/photo-1483931430372-226f194be3a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    font-size: 46px;
+}
+#introsection div.small{
+    font-size: 36px;
+}
+
+#mission{
+    height: 300px;
+    background-color: white;
+    color: black;
+
+}
+#mission h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'ABeeZee', sans-serif;
+    
+}
+.card{
+   display: inline-block;
+   border: 2px solid blue;
+   height: 174px;
+   margin: 25px 15px;
+   width: 30%;
+   border-radius: 18px;
+
+}
+.card h3{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Yeon Sung', cursive;
+
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img{
+    height: 126px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    font-size: 15px;
+     padding: 20px 20px;
+     font-family: 'Yeon Sung', cursive;
+}
+#sponsor{
+    height: 250px;
+    background-color: #f3d9e8;
+    font-size: 27px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+#spon{
+   height: 150px;
+   margin: auto;
+   max-width: 1078px;
+}  
+.spo{
+    margin: 22px;
+    height: 38%;
+    margin-top: 42px;
+}  
+#footer{
+    height: 45px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 7px;
+    font-family: 'ABeeZee', sans-serif;
+}
